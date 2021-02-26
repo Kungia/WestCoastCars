@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic settings */
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: #fff;
+    color: var(--dark-color);
+    line-height: 1.6rem;
+}
+
+h1,h2 {
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+ul {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: var (--dark-color);
+}
+
+p{
+    margin: 1rem 0;
+}
+
+img{
+    width: 100%;
+}
+
+footer{
+    padding: 1.5rem;
+    text-align: center;
+}
+
+/* delade klasser*/
+.content{
+    margin-bottom: 3rem;
+}
+
+.cars img:hover{
+    opacity: 0.6;
+}
